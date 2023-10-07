@@ -1,2 +1,0 @@
-# SeeMoreProjects
-Personal Website Works
