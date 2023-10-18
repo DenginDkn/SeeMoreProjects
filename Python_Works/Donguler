@@ -1,0 +1,139 @@
+#%%
+data = [5, 10, 15, 20]
+print(data)
+data[0] = 100 
+print(data)
+
+#%%
+# *-- Liste içinde Liste
+data = [5, "kitap", "Merhaba", True] 
+data = [5, "kitap", [34, "Merhaba"], True] 
+print(data)
+
+# %%
+data[2]
+# %%
+data[2][1]
+
+# %%
+data = [5, 10, 15, 20]
+
+data_kopya = data
+
+print(data)
+print(data_kopya)
+
+data_kopya[1]= 5000
+
+print(data_kopya)
+print(data)
+
+# %%
+data = [5, 10, 15, 20]
+
+data_kopya = data.copy()
+
+print(data)
+print(data_kopya)
+
+data_kopya[1]= 5000
+
+print(data_kopya)
+print(data)
+
+# %%
+for num in range(5):
+    print( "Değer: ", num )
+    # %%
+for num in range(2, 10):
+    print( "Değer: ", num )
+
+# %%
+adlar = ["zafer", "ege", 15]
+for isim in adlar:
+    print(isim)
+    
+# %%
+ad = "Zafer"
+for harf in ad:
+    print(harf)
+    
+    # %%
+# *-- Continue deyimi
+for num in range(6):
+    if num == 3:
+        continue
+    print(num)
+    
+# %%
+# *-- break
+for num in range(6):
+    if num == 3:
+        break
+    print(num)
+
+#%%
+# *-- While Döngüsü
+deger = 10
+while deger > 0:
+    print(deger)
+    deger -=   1
+# %%
+n = 5
+while n > 0:
+    n -= 1
+    if n == 2:
+        break
+    print(n)
+print('Loop sonlandı.')
+# %%
+n = 5
+while n > 0:
+    n -= 1
+    if n == 2:
+        continue
+    print(n)
+print('Loop sonlandı.')
+# %%
+# *-- İç İçe Döngüler 
+for i in range(2):
+    for j in range(2): 
+      for k in range(2):
+            print( i, j, k)
+            
+#%%
+sayilar = [3,6,8]
+print(min(sayilar))
+print(max(sayilar))
+print(sum(sayilar))
+# %%
+sayilar = [79,50,450,25]
+sorted_numbers= sorted(sayilar)
+print(sayilar,sorted_numbers)
+# %%
+sayilar = [79,50,450,25]
+sayilar.sort(reverse=True)
+print(sayilar)
+# %%
+isimler= ["dengin","şimay","zafer"]
+
+if "şimay" in isimler:
+  print("isim bulundu")
+else:
+  print("isim bulunamadi")
+
+# %%
+# *-- Listeler ve Döngüler
+sporlar = ["Futbol", "Basketbol", "Tenis", "Yüzme"]
+for spor in sporlar:
+    print(spor)
+
+
+#%%
+# *-- While Döngüleri ve Listeler 
+
+isimler = ["Zafer", "Dengin", "Zafer", "Zafer", "Şimay"]
+while "Zafer" in isimler:
+    isimler.remove("Zafer") 
+print(isimler)
+# %%
