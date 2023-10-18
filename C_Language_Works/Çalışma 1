@@ -1,0 +1,25 @@
+#include<stdio.h>
+	
+int main() {
+	
+	/*
+	char 0 dan 255 e kadar kullanılabilir
+	int -2^16 dan 2^16 ya kadar kullanılabilir
+	short -2^8 den 2^8 e kadar kullanılabilir.
+	long -2^32 den 2_32 ye kadar kullanılabilir
+	Float kesirli sayılar için kullanılabilir.
+	Double floattan daha kapsamlıdır.
+	*/
+	
+	/*
+	%d>>>>>> int de format belirtir
+	
+	int x = 5
+	printf ("%d", x);
+	*/
+	
+	printf("Hello World!\tDenginDiken\n");
+	printf("Welcome to C Programming");
+	
+		return 0;
+}
